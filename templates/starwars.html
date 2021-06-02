@@ -7,8 +7,7 @@
 
 
 {% block body %}
-
-<h1>Madlibs</h1>
+<h1>Star Wars</h1>
     <form action = '/story'>
         {% for prompt in prompts %}
             <p>{{prompt}}
@@ -17,7 +16,5 @@
         {% endfor %}
         <button>Submit</button>
     </form>
-
-
 
 {% endblock %}

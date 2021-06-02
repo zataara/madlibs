@@ -43,4 +43,12 @@ story = Story(
     """Once upon a time in a long-ago {place}, there lived a large {adjective} {noun}. It loved to {verb} {plural_noun}."""
 )
 
+starwars = Story(
+    ["place", "adjective", "anything"],
+    """A long time ago in a {place} far far away... The rebel scum continued to defy the {adjective} Empire led by Darth {anything}.  """
+
+
+)
+
+
 testing = {'place': 'home', 'adjective': 'creepy', 'noun': 'lion', 'verb': 'smash', 'plural_noun': 'rats'}
