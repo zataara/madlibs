@@ -21,6 +21,8 @@ class Story:
     def __init__(self, words, text):
         """Create story with words and template text."""
 
+        self.code = code
+        self.title = title
         self.prompts = words
         self.template = text
 
@@ -51,4 +53,4 @@ starwars = Story(
 )
 
 
-testing = {'place': 'home', 'adjective': 'creepy', 'noun': 'lion', 'verb': 'smash', 'plural_noun': 'rats'}
+
